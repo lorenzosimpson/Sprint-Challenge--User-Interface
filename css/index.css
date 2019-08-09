@@ -77,12 +77,15 @@ p {
     margin-top: 30px;
     margin-bottom: 30px;
 }
+
 .navigation a {
     padding-top: 20px;
     text-decoration: none;
     color: black;
 }
-
+.navigation a:hover {
+    text-decoration: overline black;
+}
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -196,6 +199,9 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+footer nav a:hover {
+    text-decoration: overline white;
+}
 
 /* BEGIN ABOUT CSS */
 .about {
@@ -267,6 +273,10 @@ button {
     font-size: 16px; 
     border: 2px solid black;
     border-radius: 7px;
+}
+button:hover {
+    background-color: black;
+    color: white;
 }
 
 
