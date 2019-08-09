@@ -196,3 +196,16 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/* BEGIN ABOUT CSS */
+.about {
+    margin-top: 40px;
+    border-bottom: 1px dashed black;
+}
+.about p {
+    margin-bottom: 30px;
+}
+.about-middle {
+    display: flex;
+    margin-top: 30px;
+}
