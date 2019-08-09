@@ -207,5 +207,20 @@ footer nav a {
 }
 .about-middle {
     display: flex;
+    justify-content: space-between;
     margin-top: 30px;
+}
+.about-bottom {
+    display: flex;
+    margin-top: 30px;
+}
+button {
+   font-size: 16px; 
+   padding: 5px 15px;
+   margin-top: 20px;
+   border: 2px solid black;
+   border-radius: 5px;
+}
+.about-boxes h3 {
+    margin-top: 5px;
 }
